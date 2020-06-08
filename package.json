@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "Manager.js",
   "scripts": {
-    "start": "node Leprechaun.js"
+    "start": "node Manager.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
