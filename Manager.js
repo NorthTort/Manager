@@ -35,13 +35,13 @@ var prefix = '!'
   .catch(console.error);
 		message.channel.sendMessage('<:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> @everyone <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> \n Граждане Имперского города! Делайте ваши ставки! Кто победит в сегодняшнем турнире!? \n Кликайте по иконке претендента!');
 	 }
-	 if(message.content.startsWith(prefix + 'say')) {
+	 if(message.content.startsWith(prefix + 'sam')) {
   if(message.author.id !== '386834372466049024') return;
-    const args = message.content.slice(prefix.length).split('say');
+    const args = message.content.slice(prefix.length).split('sam');
 	  message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error);
-     		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
+     		message.channel.sendMessage(message.content.slice(prefix.length).split('sam'));
 	 }
 	 if(message.content.startsWith(prefix + 'send')) {
   if(message.author.id !== '435498881040777231') return;
