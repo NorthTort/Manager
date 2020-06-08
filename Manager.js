@@ -12,7 +12,7 @@ var prefix = '!'
  client.on('message', message => {
     if(message.author === client.user) return;
    	 if(message.content.startsWith(prefix + 'say')) {
-  if(message.author.id !== '386834372466049024') return;
+  if(message.author.id !== '611875493515493378') return;
     const args = message.content.slice(prefix.length).split('say');
 	  message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
